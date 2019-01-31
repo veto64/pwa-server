@@ -1,0 +1,15 @@
+version: '3'
+services:
+  pwa-server:
+    image: "veto64/pwa-server"    
+    container_name: apache
+    ports:
+     - "80:80"
+     - "443:443"
+    volumes:
+     - "./html:/var/www/html"     
+     - "./log:/var/log/apache2"
+     - "./etc/ssl/froxlor-custom:/etc/ssl/froxlor-custom"          
+     - "./etc/apache2/sites-enabled:/etc/apache2/sites-enabled"          
+
+
