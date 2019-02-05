@@ -17,7 +17,7 @@ The main repository is on:
 sudo sed -i "2i127.0.0.1  pdw.calantas.org" /etc/hosts
 ```
 
-3. runder docker compose to start the apache ssl webserver 
+3. run docker-compose to start the apache ssl webserver 
 ```bash
 docker-compose up -d
 ```
