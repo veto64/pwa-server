@@ -3,7 +3,7 @@
 The main repository is on:
 [https://calantas.org/pwa-server/](https://calantas.org/pwa-server)
 
-![logo](https://openclipart.org/download/212488/the_pencil_fist__vector__by_mondspeer-d8d6wtk.svg =250x)
+<img src="https://openclipart.org/download/212488/the_pencil_fist__vector__by_mondspeer-d8d6wtk.svg" width="250">
 
 ## License
 GNU General Public License v3.0 -
